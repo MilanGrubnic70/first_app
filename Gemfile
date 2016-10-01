@@ -18,6 +18,10 @@ gem 'uglifier', '>= 1.3.0'
 end
 gem 'jquery-rails'
 
+group :producion do 
+	gem 'pg', '0.12.2'
+end
+
 gem 'rails_12factor'
 
 # Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
