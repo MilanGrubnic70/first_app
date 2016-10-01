@@ -15,3 +15,5 @@
 /log/*
 !/log/.keep
 /tmp
+
+#add any files you don't want to go on github
