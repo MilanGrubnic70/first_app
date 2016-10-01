@@ -4,8 +4,10 @@ ruby '2.0.0'
 
 gem 'rails', '4.2.0'
 
+# gem 'pg'
+
 group :development do
-gem 'pg'
+gem 'sqlite3'
 end
 # Gems used only for assets and not required
 # in production environments by default.
